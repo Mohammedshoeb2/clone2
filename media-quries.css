@@ -1,0 +1,97 @@
+@media  screen and (max-width:991px) {
+    .nav-toggle{
+     display: block;
+     margin-right: 40px;
+    }
+    .nav-links{
+     display: none;
+    }
+    .media{
+        flex-direction: row;
+        width: 48.5%;
+        height: 210px;
+    }
+    .cta-section-container{
+        padding-block: 80px;
+    }        
+    }
+    @media screen and (max-width:767px) {
+        .h3{
+            font-size: 1.2rem;
+        }
+        .m-right{
+            flex-direction: column-reverse;
+            gap: 50px;
+        }
+        .header-left{
+           max-width: 100vw;
+           text-align: center;
+           gap: 50px;
+        }
+        .primary-button{
+            width: 100vw;
+            border-radius: 10px;
+        }
+        .examples-card{
+           width: 48%;
+           flex-direction: row;
+        }
+        .examples-card2{
+            width: 48%;
+            flex-direction: row;
+         }
+         .examples-card3{
+            width: 48%;
+            flex-direction: row;
+         }
+         .examples-card4{
+            width: 48%;
+            flex-direction: row;
+         }
+        
+    }
+    @media screen and (max-width:576px){
+        .h3{
+            font-size: 1rem;
+        }
+        .features-card{
+            width: 50%;
+            justify-content: center;
+        }
+        .big-feature-container{
+            flex-direction: column;
+        }
+       .media2{
+        flex-direction: column-reverse;
+       }
+       .examples-card{
+        width: 46%;
+        flex-direction: row;
+     }
+     .examples-card2{
+        width: 46%;
+        flex-direction: row;
+     }
+     .examples-card3{
+        width: 46%;
+        flex-direction: row;
+     }
+     .examples-card4{
+        width: 46%;
+        flex-direction: row;
+     }
+     .footer-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 20px;
+     }
+     .link-column{
+        align-items: stretch;
+     }
+    .subfooter-container{
+        flex-direction: column;
+    }
+
+    }
